@@ -1,0 +1,31 @@
+{
+    "pageTextData": [
+		{
+			"title": "Coca Cola Great Britain",
+			"subTitle": "Founded in 1886 Dr John S Pemberton",		
+			"description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+		},
+		{
+			"title": "Coca Cola",
+			"subTitle": "Coca Cola the classic",		
+			"description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!",
+			"url" : "http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola"
+		},
+		{
+			"title": "Fanta",
+			"subTitle": "Fanta, summer in a bottle",		
+			"description": "Fanta is a delicous fruty drink made using oranges and other fruits. we use 100% sugar and color it orange making more and more fruit like with more and more color",
+			"url" : "https://www.coca-cola.co.uk/brands/fanta"
+		},
+		{
+			"title": "Powerade",
+			"subTitle": "The drink of sport champion",		
+			"description": "Powerade is the drink for all sports people, it comes in many flavors such as blue, green and purple. it is the perfect drink for you to regain your energy after doing a lot of sport or playing a lot of videogame. that is rigth you can drink powerade even if you do not do sport!!! it is devlcious and taste like the color it has blue tastes like blue. try it and you will love it!!",
+			"url" : "https://www.coca-cola.co.uk/brands/powerade"
+		},
+		{
+			"galleryTitle": "3D Images of my models",
+			"galleryDescription": "a gallery of my model rendered in blender (the material may look sligthly different since I used Eevee)"
+		}
+	]
+}
