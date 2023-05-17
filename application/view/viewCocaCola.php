@@ -303,7 +303,7 @@
                   <p><span class="align-baseline">&copy 2023 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p>
               </div>
               <div class="navbar-text float-right social">
-                  <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+                  <a href="https://github.com/GdeMarcellus/3DAppSubmision"><i class="fab fa-github-square fa-2x"></i></a>
               </div>
           </div>
       </nav> 
