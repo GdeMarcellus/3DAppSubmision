@@ -26,7 +26,7 @@ class Model {
 	public function dbCreateTable()
 	{
 		try {
-			$this->dbhandle->exec("CREATE TABLE Model_3D (Id INTEGER PRIMARY KEY, brand TEXT, x3dModelTitle TEXT, x3dCreationMethod TEXT, modelTitle TEXT, modelSubtitle TEXT, modelDescription TEXT)");
+			$this->dbhandle->exec("CREATE TABLE Model_3D (Id INTEGER PRIMARY KEY, brand TEXT, x3dModelTitle TEXT, x3dCreationMethod TEXT, modelTitle TEXT, modelSubtitle TEXT, modelDescription TEXT, urlValue TEXT)");
 			return "Model_3D table is successfully created inside database.db file";
 		}
 		catch (PDOEXception $e){
@@ -46,12 +46,12 @@ class Model {
 	{
 		try{
 			$this->dbhandle->exec(
-			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription) 
-				VALUES (1, 'Coke', 'X3D Coke Model', 'made using blender', 'Coke can model','a simple drink','a delicous drink for all '); " .
-			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription) 
-				VALUES (2, 'Fanta', 'X3D Fanta Model', 'made using blender', 'Fanta bottle model','Fanta a fruity drink','Fanta is a great orange drink everyone should drink'); " .
-			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription) 
-			VALUES (3, 'Powerade', 'X3D Powerade Model', 'made using blender', 'Powerade bottle model','Powerade sports in a bottle','Powerade is the sports drink for all have a taste and get hooked'); ");
+			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription, urlValue) 
+				VALUES (1, 'Coke', 'X3D Coke Model', 'made using blender', 'Coke can model','a simple drink','a delicous drink for all ', 'coca-cola-original-taste'); " .
+			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription, urlValue) 
+				VALUES (2, 'Fanta', 'X3D Fanta Model', 'made using blender', 'Fanta bottle model','Fanta a fruity drink','Fanta is a great orange drink everyone should drink', 'fanta'); " .
+			"INSERT INTO Model_3D (Id, brand, x3dModelTitle, x3dCreationMethod, modelTitle, modelSubtitle, modelDescription, urlValue) 
+			VALUES (3, 'Powerade', 'X3D Powerade Model', 'made using blender', 'Powerade bottle model','Powerade sports in a bottle','Powerade is the sports drink for all have a taste and get hooked', 'powerade'); ");
 			
 			return "X3D model data inserted successfully inside database.db";
 		}
@@ -80,6 +80,7 @@ class Model {
 				$result[$i]['modelTitle'] = $data['modelTitle'];
 				$result[$i]['modelSubtitle'] = $data['modelSubtitle'];
 				$result[$i]['modelDescription'] = $data['modelDescription'];
+				$result[$i]['urlValue'] = $data['urlValue'];
 				
 				$i++;
 			}

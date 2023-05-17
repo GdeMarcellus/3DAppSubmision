@@ -184,7 +184,7 @@
                               <div id="<?php echo "description_".strtolower($data[$i]['brand'])  ?>" class="card-text drinksText">
                               <?php echo $data[$i]['modelDescription']  ?>
                             </div>   
-                            <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary btn-responsive"><?php echo $data[$i]['brand'] ?></a>                 
+                            <a href="https://www.coca-cola.co.uk/brands/<?php echo $data[$i]['urlValue'] ?>" class="btn btn-primary btn-responsive"><?php echo $data[$i]['brand'] ?></a>                 
                           </div>
                       </div>
                   </div>

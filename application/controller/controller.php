@@ -11,6 +11,7 @@ class Controller {
 		$this->load = new Load();
 		$this->model = new Model();
 		// Determine what page you are on
+		
 		$this->$pageMethod();
 	}
 	
