@@ -101,6 +101,9 @@
           <!-- End home page contents-->
 
           <div id="about" style="display:none;">
+              <a href="https://github.com/GdeMarcellus/3DAppSubmision/tree/main/application/assets/blender"> blender model </a>
+
+
               where i got some resource for this site
               <li> <a href="https://www.vecteezy.com/free-vector/coca-cola-logo">Coca Cola Logo Vectors by Vecteezy</a></li>
               <li><a href="https://pt.wikipedia.org/wiki/Fanta#/media/Ficheiro:Fanta_logo_(2016).png">fanta logo since 2016  found in wikipedia</a></li>
